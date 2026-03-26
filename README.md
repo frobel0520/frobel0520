@@ -9,10 +9,10 @@
 ### 🚀 About Me
 I am a **Software Engineer / AI Researcher** specializing in **Deep Reinforcement Learning (DRL)** and **Traffic Simulation**. I hold a Master's degree from **National Yang Ming Chiao Tung University (NYCU)**.
 
-- 🎓 **Master's Thesis:** *Risk-Aware Motorcycle Interaction in Mixed Traffic Flow via Deep Reinforcement Learning*.
-- 🛠 **Expertise:** Building AI-driven simulation models and high-performance VR environments.
-- 💡 **Passion:** Bridging academic research with practical software solutions.
-- 🎌 **Current Focus:** Sharpening programming skills.
+🎓 **Master's Thesis:** *Risk-Aware Motorcycle Interaction in Mixed Traffic Flow via Deep Reinforcement Learning*.
+🛠 **Expertise:** Building AI-driven simulation models and high-performance VR environments.
+💡 **Passion:** Bridging academic research with practical software solutions.
+🎌 **Current Focus:** Sharpening programming skills.
 
 ---
 
