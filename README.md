@@ -3,7 +3,7 @@
 <p align="left">
   <a href="https://leetcode.com/u/frobel0520/"><img src="https://img.shields.io/badge/LeetCode-160+-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="LeetCode"></a>
   <a href="mailto:frobel0520@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=gmail" alt="Email"></a>
-  <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/yu-tsen-wei-86b2923a4/"><img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"></a>
 </p>
 
 ### 🚀 About Me
