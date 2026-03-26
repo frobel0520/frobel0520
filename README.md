@@ -8,6 +8,6 @@
 ---
 
 ### 🛠 Tech Stack & Interests
-- **Specialization:** Deep Reinforcement Learning, Traffic Simulation
+- **Specialization:** Deep Reinforcement Learning, Traffic Simulation, AI Research
 - **Tech:** PyTorch, Unity, C#, Linux
 - **Goal:** AI Engineer / Software Development Engineer
