@@ -1,5 +1,5 @@
 ## Hi there 👋
-
+![LeetCode Stats](https://leetcode-stats-net.vercel.app/api?username=frobel0520&theme=dark)
 <!--
 **frobel0520/frobel0520** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
