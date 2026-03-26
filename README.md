@@ -1,18 +1,12 @@
-## Hi there 👋
-<a href="https://github.com/KnlnKS/leetcode-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/leetcode?username=你的LeetCode帳號&theme=dark&hide_title=true" />
-</a>
-<!--
-**frobel0520/frobel0520** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hi there, I'm 鮪魚 (Frobel0520) 👋
 
-Here are some ideas to get you started:
+### 💻 LeetCode Stats
+<p align="left">
+  <img src="https://leetcode-stats-api.herokuapp.com/frobel0520" alt="LeetCode Stats" />
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🛠 Tech Stack
+- **Languages:** Python, C#, C++
+- **Fields:** Deep Reinforcement Learning, Traffic Simulation, AI Research
