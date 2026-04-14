@@ -20,7 +20,7 @@ I am a **Software Engineer / AI Researcher** specializing in **Deep Reinforcemen
 
 | Category | Tools & Languages |
 | :--- | :--- |
-| **Languages** | Python, C++, C#, SQL |
+| **Languages** | C++, C#, Python |
 | **AI & Research** | PyTorch, TensorFlow, Reinforcement Learning |
 | **Environments** | Unity 3D, Unity VR, Linux/Ubuntu, Git |
 | **Certifications** | TOEIC 830, GPE Programming Certification |
