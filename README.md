@@ -1,7 +1,7 @@
 # Hi there, I'm Yu-Tsen Wei. 👋
 
 <p align="left">
-  <a href="https://leetcode.com/u/frobel0520/"><img src="https://img.shields.io/badge/LeetCode-350+-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="LeetCode"></a>
+  <a href="https://leetcode.com/u/frobel0520/"><img src="https://img.shields.io/badge/LeetCode-375+-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="LeetCode"></a>
   <a href="mailto:frobel0520@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=gmail" alt="Email"></a>
   <a href="https://www.linkedin.com/in/yu-tsen-wei-86b2923a4/"><img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"></a>
 </p>
@@ -20,7 +20,7 @@ I am a **Software Engineer / AI Researcher** specializing in **Deep Reinforcemen
 
 | Category | Tools & Languages |
 | :--- | :--- |
-| **Languages** | C++, C#, Python |
+| **Languages** | Python, C++, C# |
 | **AI & Research** | PyTorch, TensorFlow, Reinforcement Learning |
 | **Environments** | Unity 3D, Unity VR, Linux/Ubuntu, Git |
 | **Certifications** | TOEIC 830, GPE Programming Certification |
