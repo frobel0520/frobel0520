@@ -27,6 +27,10 @@ I am an **AI/ML Engineer** who builds software through AI-assisted, agentic deve
 | **Environments & Cloud** | Unity 3D, Unity VR, AWS, Linux/Ubuntu, Git |
 | **Certifications** | TOEIC 830, GPE Programming Certification |
 
+### 📊 Languages Across My Projects
+
+![Top Languages](./profile/top-langs.svg)
+
 ---
 
 ### 📊 Professional Highlights
