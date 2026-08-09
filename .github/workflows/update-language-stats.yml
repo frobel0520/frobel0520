@@ -32,6 +32,22 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
+      - name: Apply distinct Python and JavaScript colors
+        shell: bash
+        run: |
+          sed -i \
+            -e 's/#3572A5/#FFD43B/g' \
+            -e 's/#f1e05a/#323330/g' \
+            profile/top-langs-light.svg
+          sed -i \
+            -e 's/#3572A5/#FFD43B/g' \
+            -e 's/#f1e05a/#E5E7EB/g' \
+            profile/top-langs-dark.svg
+          grep -q '#FFD43B' profile/top-langs-light.svg
+          grep -q '#FFD43B' profile/top-langs-dark.svg
+          grep -q '#323330' profile/top-langs-light.svg
+          grep -q '#E5E7EB' profile/top-langs-dark.svg
+
       - name: Commit updated card
         run: |
           git config user.name "github-actions[bot]"
