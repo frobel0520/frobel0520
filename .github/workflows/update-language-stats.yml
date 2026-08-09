@@ -14,12 +14,21 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Generate top languages card
+      - name: Generate light language card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=10&theme=transparent&hide_border=true
-          path: profile/top-langs.svg
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide=PowerShell,VBScript,Dockerfile,Batchfile&hide_title=true&card_width=600&bg_color=ffffff&text_color=59636e&border_color=d1d9e0&border_radius=6&disable_animations=true
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate dark language card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide=PowerShell,VBScript,Dockerfile,Batchfile&hide_title=true&card_width=600&bg_color=0d1117&text_color=9198a1&border_color=3d444d&border_radius=6&disable_animations=true
+          path: profile/top-langs-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
@@ -27,6 +36,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/top-langs.svg
+          git add profile/top-langs-light.svg profile/top-langs-dark.svg
           git commit -m "Update language stats" || exit 0
           git push
