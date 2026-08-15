@@ -7,7 +7,8 @@
 </p>
 
 ### 🚀 About Me
-I am an **AI/ML Engineer** who builds software through AI-assisted, agentic development — pairing with LLM coding agents to design, implement, and ship projects end-to-end. My background is in **Deep Reinforcement Learning (DRL)** research, with a Master's degree from **National Yang Ming Chiao Tung University (NYCU)**.
+I’m an AI/ML Engineer focused on building secure, production-ready AI applications. My work spans LLM integration, RAG, agentic workflows, AI guardrails, full-stack development, and enterprise authentication.
+I work across Python-based backend services, modern web frontends, data integration, and governed access to turn complex requirements into practical AI systems. My background also includes deep reinforcement learning research and a peer-reviewed first-author publication.
 
 - 🎓 **Master's Thesis:** *Risk-Aware Motorcycle Interaction in Mixed Traffic Flow via Deep Reinforcement Learning*.
 - 🛠 **Expertise:** LLM-driven engineering workflows — directing AI coding agents to build and ship production software.
