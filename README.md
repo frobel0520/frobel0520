@@ -19,14 +19,15 @@ I work across Python-based backend services, modern web frontends, data integrat
 
 ### 🛠 Tech Stack
 
-| Category | Tools & Languages |
+| Category | Technologies |
 | :--- | :--- |
-| **Languages** | Python, C/C++, C#, JavaScript, SQL |
+| **Languages** | Python, TypeScript, JavaScript, SQL |
+| **Enterprise AI** | LLM Integration, Retrieval-Augmented Generation (RAG), Agentic Workflows, AI Guardrails, Local LLMs |
 | **AI & Machine Learning** | Machine Learning, Deep Learning, Reinforcement Learning, PyTorch, TensorFlow |
-| **AI-Assisted / Agentic Development** | Agentic AI Development, Local LLM, Claude Code, Codex, and other mainstream AI coding tools |
-| **CS Fundamentals** | Software Engineering, Data Structures, Game Programming |
-| **Environments & Cloud** | Unity 3D, Unity VR, AWS, Linux/Ubuntu, Git |
-| **Certifications** | TOEIC 830, GPE Programming Certification |
+| **Backend & Data** | FastAPI, PostgreSQL, REST APIs |
+| **Frontend, Identity & Cloud** | React, Microsoft Entra ID, SSO, RBAC, LDAP, AWS, Linux, Git, GitHub Actions |
+
+**Additional experience:** C/C++, C#, Unity 3D, Unity VR, and game programming.
 
 ### 📊 Languages Across My Projects
 
@@ -42,6 +43,13 @@ I work across Python-based backend services, modern web frontends, data integrat
 - **AI Simulation:** Developed navigation models to simulate complex motorcycle behaviors in mixed traffic.
 - **VR Development:** Core developer for a VR English learning system, optimizing rendering for high-frame-rate experiences.
 - **Teaching:** Former TA for Data Structures and OOP (C++) at NYCU.
+
+---
+
+### 📜 Credentials
+
+- TOEIC 830
+- GPE Programming Certification
 
 ---
 
