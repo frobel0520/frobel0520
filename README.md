@@ -42,13 +42,5 @@ I work across Python-based backend services, modern web frontends, data integrat
 
 ---
 
-### 📜 Credentials
-
-- TOEIC 830
-- GPE Programming Certification
-
----
-
 ### 📫 Get in Touch
 - **Email:** [frobel0520@gmail.com](mailto:frobel0520@gmail.com) 
-- **Target Roles:** AI Engineer | Machine Learning Researcher | Software Development Engineer
