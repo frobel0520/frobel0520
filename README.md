@@ -13,15 +13,19 @@ I work across Python-based backend services, modern web frontends, data integrat
 
 ### 🛠 Tech Stack
 
-| Category | Technologies |
-| :--- | :--- |
-| **Languages** | Python, TypeScript, JavaScript, SQL |
-| **Enterprise AI** | LLM Integration, Retrieval-Augmented Generation (RAG), Agentic Workflows, AI Guardrails, Local LLMs |
-| **AI & Machine Learning** | Machine Learning, Deep Learning, Reinforcement Learning, PyTorch, TensorFlow |
-| **Backend & Data** | FastAPI, PostgreSQL, REST APIs |
-| **Frontend, Identity & Cloud** | React, Microsoft Entra ID, SSO, RBAC, LDAP, AWS, Linux, Git, GitHub Actions |
+### 🛠 Tech Stack
 
-**Additional experience:** C/C++, C#, Unity 3D, Unity VR, and game programming.
+| Area | Technologies |
+| :--- | :--- |
+| **Enterprise AI & LLM Systems** | LLM Integration, RAG, Agentic Workflows, AI Guardrails, Local LLMs |
+| **Machine Learning & Deep Learning** | Machine Learning, Deep Learning, Deep Reinforcement Learning, PyTorch, TensorFlow |
+| **Applied AI Research** | Reward Shaping, Curriculum Learning, Ray-based Perception, Risk-Probability Mapping, Local Path Planning, Collision Avoidance, Ablation Evaluation |
+| **Backend & Data** | FastAPI, REST APIs, PostgreSQL, Data Integration |
+| **Frontend** | React, TypeScript, Modern Web Interfaces |
+| **Identity & Security** | Microsoft Entra ID, SSO, RBAC, LDAP |
+| **Cloud & DevOps** | AWS, Linux, Git, GitHub Actions |
+| **Languages** | Python, TypeScript, JavaScript, SQL, C, C++, C# |
+| **Graphics & Simulation** | Unity 3D, Unity VR, Computer Graphics, Image Processing, Animation, Traffic Simulation |
 
 ### 📊 Languages Across My Projects
 
