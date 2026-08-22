@@ -4,7 +4,7 @@
 I’m an AI/ML Engineer focused on building secure, production-ready AI applications. My work spans LLM integration, RAG, agentic workflows, AI guardrails, full-stack development, and enterprise authentication.
 I work across Python-based backend services, modern web frontends, data integration, and governed access to turn complex requirements into practical AI systems. My background also includes deep reinforcement learning research and a peer-reviewed first-author publication.
 
-- 🎓 **Master's Thesis:** *Risk-Aware Motorcycle Interaction in Mixed Traffic Flow via Deep Reinforcement Learning*.
+- 🎓 **Thesis:** *Risk-Aware Motorcycle Interaction in Mixed Traffic Flow via Deep Reinforcement Learning*.
 - 🛠 **Expertise:** LLM-driven engineering workflows — directing AI coding agents to build and ship production software.
 - 💡 **Passion:** Solving complex problems through practical, AI-accelerated software solutions.
 - 🎌 **Current Focus:** AI/ML Engineering — designing and shipping software through AI coding agents.
