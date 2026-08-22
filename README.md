@@ -13,8 +13,6 @@ I work across Python-based backend services, modern web frontends, data integrat
 
 ### 🛠 Tech Stack
 
-### 🛠 Tech Stack
-
 | Area | Technologies |
 | :--- | :--- |
 | **Enterprise AI & LLM Systems** | LLM Integration, RAG, Agentic Workflows, AI Guardrails, Local LLMs |
