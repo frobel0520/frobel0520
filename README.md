@@ -1,8 +1,8 @@
 # Hi there, I'm Yu-Tsen Wei. 👋
 
 ### 🚀 About Me
-I’m an AI/ML Engineer focused on building secure, production-ready AI applications. My work spans LLM integration, RAG, agentic workflows, AI guardrails, full-stack development, and enterprise authentication.
-I work across Python-based backend services, modern web frontends, data integration, and governed access to turn complex requirements into practical AI systems. My background also includes deep reinforcement learning research and a peer-reviewed first-author publication.
+I’m an AI/ML Engineer focused on building secure, production-ready AI applications. My work spans LLM integration, RAG, agentic workflows, AI guardrails, machine learning and data mining, full-stack development, and enterprise authentication.
+I work across Python-based backend services, modern web frontends, data integration, and governed access to turn complex requirements into practical AI systems. I also work on data mining and machine learning — data analysis and predictive modeling. My background also includes deep reinforcement learning research and a peer-reviewed first-author publication.
 
 - 🎓 **Thesis:** *Risk-Aware Motorcycle Interaction in Mixed Traffic Flow via Deep Reinforcement Learning*.
 - 🛠 **Expertise:** LLM-driven engineering workflows — directing AI coding agents to build and ship production software.
