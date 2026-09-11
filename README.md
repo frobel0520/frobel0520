@@ -16,7 +16,7 @@ I work across Python-based backend services, modern web frontends, data integrat
 | Area | Technologies |
 | :--- | :--- |
 | **Enterprise AI & LLM Systems** | LLM Integration, RAG, Agentic Workflows, AI Guardrails, Local LLMs |
-| **Machine Learning & Deep Learning** | Machine Learning, Deep Learning, Deep Reinforcement Learning, PyTorch, TensorFlow |
+| **Machine Learning & Deep Learning** | Machine Learning, Deep Learning, Deep Reinforcement Learning, Data Mining, Data Analysis, Predictive Modeling, PyTorch, TensorFlow |
 | **Applied AI Research** | Reward Shaping, Curriculum Learning, Ray-based Perception, Risk-Probability Mapping, Local Path Planning, Collision Avoidance, Ablation Evaluation |
 | **Backend & Data** | FastAPI, REST APIs, PostgreSQL, Data Integration |
 | **Frontend** | React, TypeScript, Modern Web Interfaces |
