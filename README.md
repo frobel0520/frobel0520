@@ -25,6 +25,18 @@ I work across Python-based backend services, modern web frontends, data integrat
 | **Languages** | Python, TypeScript, JavaScript, SQL, C, C++, C# |
 | **Graphics & Simulation** | Unity 3D, Unity VR, Computer Graphics, Image Processing, Animation, Traffic Simulation |
 
+### 📌 Featured Projects
+
+| Project | What it is |
+| :--- | :--- |
+| [Genshin-Impact-RAG-Helper](https://github.com/frobel0520/Genshin-Impact-RAG-Helper) | Local-first Traditional Chinese RAG assistant that cites every answer and refuses instead of guessing |
+| [Learning Atlas](https://frobel0520.github.io/learning-atlas/) | Hub for five interactive learning routes: software engineering, AI guardrails, AI agents, AWS, and programming languages (TypeScript, Go, FastAPI) |
+| [Guardrail Workshop](https://frobel0520.github.io/guardrail-workshop/) | LLM guardrail course with an in-browser playground and a FastAPI defense-in-depth demo |
+| [Playmint](https://playmint.pages.dev/) | Browser puzzle games: [Tensift](https://tensift.pages.dev/) (daily sorting puzzle in 3 languages) and [Left Foot, Right Foot](https://frobel0520.github.io/left-foot-right-foot/) |
+| [motorcycle-simulator-rebuild](https://github.com/frobel0520/motorcycle-simulator-rebuild) | Unity 6 rebuild of my thesis research — paper: [Risk-Aware Motorcycle Interaction in Mixed Traffic Flow via Deep Reinforcement Learning](https://doi.org/10.1002/cav.70161) (*Computer Animation and Virtual Worlds*, 2026) |
+
+---
+
 ### 📊 Languages Across My Projects
 
 <picture>
