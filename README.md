@@ -55,4 +55,4 @@ I work across Python-based backend services, modern web frontends, data integrat
 ---
 
 ### 📫 Get in Touch
-- **Email:** [<redacted>](mailto:<redacted>) 
+- **LinkedIn:** [Yu-Tsen Wei](https://www.linkedin.com/in/yu-tsen-wei-86b2923a4) 
