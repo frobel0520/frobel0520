@@ -6,16 +6,20 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  update:
+  generate:
     runs-on: ubuntu-latest
+    outputs:
+      cards: ${{ steps.cards.outputs.value }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
 
       - name: Generate light language card
-        uses: stats-organization/github-readme-stats-action@v2
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide=PowerShell,VBScript,Dockerfile,Batchfile&hide_title=true&card_width=600&bg_color=ffffff&text_color=59636e&border_color=d1d9e0&border_radius=6&disable_animations=true
@@ -24,7 +28,7 @@ jobs:
           fail_on_error: true
 
       - name: Generate dark language card
-        uses: stats-organization/github-readme-stats-action@v2
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide=PowerShell,VBScript,Dockerfile,Batchfile&hide_title=true&card_width=600&bg_color=0d1117&text_color=9198a1&border_color=3d444d&border_radius=6&disable_animations=true
@@ -51,10 +55,47 @@ jobs:
           replace_color_if_present profile/top-langs-dark.svg '#3572A5' '#FFD43B'
           replace_color_if_present profile/top-langs-dark.svg '#f1e05a' '#E5E7EB'
 
+      - name: Export generated cards
+        id: cards
+        shell: python
+        run: |
+          import base64, json, os
+          from pathlib import Path
+          cards = {name: Path('profile', name).read_text() for name in ('top-langs-light.svg', 'top-langs-dark.svg')}
+          encoded = base64.b64encode(json.dumps(cards).encode()).decode()
+          if len(encoded) > 128000:
+              raise ValueError('Generated cards exceed the transfer limit')
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write('value=' + encoded + '\n')
+
+  update:
+    needs: generate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - name: Restore generated cards
+        shell: python
+        env:
+          CARDS: ${{ needs.generate.outputs.cards }}
+        run: |
+          import base64, json, os
+          from pathlib import Path
+          encoded = os.environ['CARDS']
+          if len(encoded) > 128000:
+              raise ValueError('Generated cards exceed the transfer limit')
+          cards = json.loads(base64.b64decode(encoded, validate=True))
+          expected = {'top-langs-light.svg', 'top-langs-dark.svg'}
+          if set(cards) != expected or any(not isinstance(value, str) for value in cards.values()):
+              raise ValueError('Invalid generated card payload')
+          for name in expected:
+              Path('profile', name).write_text(cards[name])
       - name: Commit updated card
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/top-langs-light.svg profile/top-langs-dark.svg
-          git commit -m "Update language stats" || exit 0
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Update language stats"
           git push
