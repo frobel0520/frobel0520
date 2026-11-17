@@ -1,13 +1,14 @@
 # Hi there, I'm Yu-Tsen Wei. 👋
 
 ### 🚀 About Me
-I’m an AI/ML Engineer focused on building secure, production-ready AI applications. My work spans LLM integration, RAG, agentic workflows, AI guardrails, machine learning and data mining, full-stack development, and enterprise authentication.
-I work across Python-based backend services, modern web frontends, data integration, and governed access to turn complex requirements into practical AI systems. I also work on data mining and machine learning — data analysis and predictive modeling. My background also includes deep reinforcement learning research and a peer-reviewed first-author publication.
+I’m an AI Infrastructure & Platform Engineer focused on building secure, production-ready enterprise AI applications. My work covers LLMs, RAG, agentic workflows, AI guardrails, full-stack development, enterprise authentication, and internal deployment.
+I work across the application stack — from modern web frontends and Python-based backend services to data integration and governed access — turning complex requirements into practical AI tools. I also work on data mining and machine learning — data analysis and predictive modeling. My background combines applied machine learning research with software engineering.
 
-- 🎓 **Thesis:** *Risk-Aware Motorcycle Interaction in Mixed Traffic Flow via Deep Reinforcement Learning*.
+- 📄 **Publication:** First author of [*Risk-Aware Motorcycle Interaction in Mixed Traffic Flow via Deep Reinforcement Learning*](https://doi.org/10.1002/cav.70161) — presented at CASAXR 2026, published in *Computer Animation and Virtual Worlds*.
+- 🎓 **Education:** M.S. in Computer Science, National Yang Ming Chiao Tung University · B.S. in Computer Science, National Tsing Hua University.
 - 🛠 **Expertise:** LLM-driven engineering workflows — directing AI coding agents to build and ship production software.
 - 💡 **Passion:** Solving complex problems through practical, AI-accelerated software solutions.
-- 🎌 **Current Focus:** AI/ML Engineering — designing and shipping software through AI coding agents.
+- 🎌 **Current Focus:** AI infrastructure & platform engineering — enterprise LLM, RAG, and agentic AI systems with guardrails and governed access.
 
 ---
 
@@ -15,13 +16,13 @@ I work across Python-based backend services, modern web frontends, data integrat
 
 | Area | Technologies |
 | :--- | :--- |
-| **Enterprise AI & LLM Systems** | LLM Integration, RAG, Agentic Workflows, AI Guardrails, Local LLMs |
+| **Enterprise AI & LLM Systems** | LLM Integration, RAG, Agentic Workflows, LLM & MCP Gateways, AI Guardrails, Local LLMs |
 | **Machine Learning & Deep Learning** | Machine Learning, Deep Learning, Deep Reinforcement Learning, Data Mining, Data Analysis, Predictive Modeling, PyTorch, TensorFlow |
-| **Applied AI Research** | Reward Shaping, Curriculum Learning, Ray-based Perception, Risk-Probability Mapping, Local Path Planning, Collision Avoidance, Ablation Evaluation |
+| **Applied AI Research** | Experimental Design, Model Evaluation, Reward Shaping, Curriculum Learning, Ray-based Perception, Risk-Probability Mapping, Local Path Planning, Collision Avoidance, Ablation Evaluation |
 | **Backend & Data** | FastAPI, REST APIs, PostgreSQL, Data Integration |
 | **Frontend** | React, TypeScript, Modern Web Interfaces |
 | **Identity & Security** | Microsoft Entra ID, SSO, RBAC, LDAP |
-| **Cloud & DevOps** | AWS, Linux, Git, GitHub Actions |
+| **Cloud & DevOps** | Docker, Kubernetes, Microservices, AWS, Linux, Git, GitHub Actions, Systems Integration |
 | **Languages** | Python, TypeScript, JavaScript, SQL, C, C++, C# |
 | **Graphics & Simulation** | Unity 3D, Unity VR, Computer Graphics, Image Processing, Animation, Traffic Simulation |
 
@@ -47,12 +48,17 @@ I work across Python-based backend services, modern web frontends, data integrat
 
 ---
 
-### 📊 Professional Highlights
-- **AI Simulation:** Developed navigation models to simulate complex motorcycle behaviors in mixed traffic.
-- **VR Development:** Core developer for a VR English learning system, optimizing rendering for high-frame-rate experiences.
-- **Teaching:** Former TA for Data Structures and OOP (C++) at NYCU.
+### 💼 Experience
+
+| Period | Role | Highlights |
+| :--- | :--- | :--- |
+| 2026 – now | AI Infrastructure & Platform Engineer | Enterprise LLM, RAG, and agentic AI applications; LLM & MCP gateways and microservices on Docker / Kubernetes; security guardrails, SSO and RBAC |
+| 2025 – 2026 | Independent AI Researcher | Turned my master's research into a peer-reviewed first-author publication |
+| 2023 – 2025 | Research Assistant, NYCU | Deep RL for risk-aware motorcycle behavior in mixed traffic: ray-based perception, risk-probability mapping, curriculum learning |
+| 2021 – 2022 | Software Engineer, NYCU industry–academia project | Core developer of a VR English learning system in Unity / C#: interaction logic, backend, database, and high-frame-rate rendering |
+| 2021 | Teaching Assistant, NYCU | Data Structures and Object-Oriented Programming (C++) |
 
 ---
 
 ### 📫 Get in Touch
-- **Email:** [<redacted>](mailto:<redacted>) 
+- **LinkedIn:** [Yu-Tsen Wei](https://www.linkedin.com/in/yu-tsen-wei-86b2923a4)
